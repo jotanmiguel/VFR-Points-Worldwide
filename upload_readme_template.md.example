@@ -1,0 +1,31 @@
+# {country} VFR Points
+
+This package contains a CSV file with VFR points for {country}.
+
+## Files
+
+- {csv_filename}
+
+## How to use in Little Navmap
+
+1. Open Little Navmap.
+2. Go to the user points import function.
+3. Import the CSV file included in this package.
+4. Make sure the separator is set to comma.
+5. Map the fields if needed using this order:
+   - type
+   - name
+   - ident
+   - lat
+   - lon
+   - elev
+   - mag_decl
+   - tags
+   - remarks
+   - region
+   - visible_from
+
+## Notes
+
+- Coordinates are stored in decimal degrees.
+- This template can be customized before packaging.

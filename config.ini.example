@@ -1,0 +1,17 @@
+[paths]
+data_dir = data
+points_dir = points
+
+[defaults]
+country = Portugal
+output_name_template = {input_stem}.csv
+merge_output = merged.csv
+forced_type =
+
+[package]
+package_dir = dist
+archive_format = rar
+archive_tool = auto
+readme_template = upload_readme_template.md
+package_name_template = {country}_vfr_points
+
